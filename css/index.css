@@ -1,0 +1,117 @@
+/****************************** Tag Selector ******************************/
+
+body {
+    margin: 0;
+}
+p {
+   font-size: 16px; 
+}
+header {
+    background-color: #EAF6F6;
+    color: #66BFBF;
+    position: relative;
+    text-align: center;
+}
+header h1 {
+    display: inline-block;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+h2 {
+    color: #66BFBF;
+    text-align: center;
+}
+h3 {
+    color: #11999E;
+}
+
+img.icon {
+    width: 20%;
+}
+
+footer {
+    background-color: #66BFBF;
+    text-align: center;
+    height: 100px ;
+}
+footer p {
+    color: #EAF6F6;
+}
+footer a {
+    color: #11999E;
+}
+footer a{
+    display: inline-block;
+    
+    margin: 20px;
+    text-decoration: none;
+}
+hr {
+    /* background-color: #EAF6F6; */
+    border: 0;
+    width: 5%;
+    border-top: 10px dotted #EAF6F6;
+}
+
+section {
+    max-width: 700px;
+    margin: 100px auto;
+    line-height: 2;
+
+}
+span {
+    text-decoration: underline;
+}
+
+
+/****************************** Class Selector ******************************/
+.clear {
+    clear: both;
+}
+.get-in-touch {
+    max-width: 500px;
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 20px;
+    max-width: 200px;
+}
+.float-right {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+.knowme {
+    text-align: center;
+    max-width: 500px;
+}
+.left-cloud {
+    position: absolute;
+    left: 300px;
+    /* top  : 100px; */
+}
+.right-cloud {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+
+
+
+/******************************* ID Selector ********************************/
+
+#lets_chat {
+    background-color: #66BFBF;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    margin: 50px auto 0 auto;
+    padding: 10px 20px;
+    text-decoration: none;
+}
